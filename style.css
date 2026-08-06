@@ -34,8 +34,8 @@ body
     }
     .star
     {
-        width: 10px;
-        height: 10px;
+        width: absolute;
+        height: absolute;
         background-color: white;
         border-radius: 50%;
        box-shadow: 0 0 10px white;
@@ -46,11 +46,12 @@ body
     {
         width: 18px;
         height: 18px;
-        background-color: white;
-        border-radius: 50%;
+        background-color: rgb(252, 250, 202);
+        border-radius: 70%;
         position: absolute;
-        box-shadow: 0 0 25px white;
+        box-shadow: 0 0 25px rgb(244, 252, 143);
         animation: twinkle 3s infinite;
+        
     }
         
 @keyframes twinkle
