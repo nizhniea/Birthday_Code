@@ -14,14 +14,18 @@ body
     {
         font-size: 55px;
         color: rgb(34, 170, 229);
-        
+        opacity: 0;
+        animation: fadeIn 3s forwards;
+        animation-delay: 2s;
     }
     p
     {
         
         font-size: 30px;
         color: rgb(247, 248, 247);
-      
+        opacity: 0;
+        animation: fadeIn 3s forwards;
+        animation-delay: 5s;
     }
     h2
     {
@@ -31,26 +35,37 @@ body
         font-style: italic; 
         text-shadow: 0 0 10px white;
         color: rgb(4, 75, 10);
+        opacity: 0;
+        animation: fadeIn 3s forwards; 
+        animation-delay: 8s;
     }
     .star
     {
-        width: absolute;
-        height: absolute;
+    
         background-color: white;
         border-radius: 50%;
        box-shadow: 0 0 10px white;
        position: absolute;
        z-index: -1;
+       opacity: 0;
+       animation: fadeIn 3s forwards;
     }
     .special-star
     {
         width: 18px;
         height: 18px;
         background-color: rgb(252, 250, 202);
-        border-radius: 70%;
+        border-radius: 50%;
         position: absolute;
-        box-shadow: 0 0 25px rgb(244, 252, 143);
-        animation: twinkle 3s infinite;
+        box-shadow: 0 0 75px rgb(244, 252, 143);
+        
+        opacity: 0;
+       
+
+        
+       animation:
+        fadeIn 3s 15s forwards,
+        twinkle 3s 13s infinite;
         
     }
         
@@ -58,11 +73,22 @@ body
     {
         0%, 100%
         {
-            opacity: 1;
+            box-shadow: 0 0 5px rgb(207, 213, 121);
         }
         50%
         {
-            opacity: 0.5;
+            box-shadow: 0 0 70px rgb(202, 209, 99);
         }
     }
-        
+    
+@keyframes fadeIn
+    {
+        0%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 1;
+        }
+    }
