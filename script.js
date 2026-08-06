@@ -15,6 +15,7 @@ for (let i = 0; i < 550; i++) {
     star.style.height = size + "px";
 
     document.body.append(star);
+    
 
 }
   let specialStar = document.createElement("div");
@@ -22,3 +23,8 @@ for (let i = 0; i < 550; i++) {
   specialStar.style.left = window.innerWidth / 2 + "px";
   specialStar.style.top = window.innerHeight / 0 + "px";   
   document.body.append(specialStar);
+  
+  specialStar.addEventListener("click", function() {
+        alert("You found me!");
+
+});
