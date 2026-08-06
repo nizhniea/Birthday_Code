@@ -1,0 +1,7 @@
+Notes
+
+#Started with just HTML, then added style.css, and finally added Java.
+#Started by customizing one star, then via java, used Math.random() to make 300
+random stars appea all over the screen.
+#Customized the Text to go down in specific colors to match Nationality flag.
+#Added a "special star" that twinkles, in the center.

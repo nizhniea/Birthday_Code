@@ -1,0 +1,67 @@
+body
+    {
+        background-color: black;
+        
+    }
+    h1, p, h2
+    {
+       
+        text-align: center;
+        font-family: 'Didot', serif;
+        z-index: 2;
+    }
+    h1
+    {
+        font-size: 55px;
+        color: rgb(34, 170, 229);
+        
+    }
+    p
+    {
+        
+        font-size: 30px;
+        color: rgb(247, 248, 247);
+      
+    }
+    h2
+    {
+      
+        font-size: 100px;
+     
+        font-style: italic; 
+        text-shadow: 0 0 10px white;
+        color: rgb(4, 75, 10);
+    }
+    .star
+    {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+       box-shadow: 0 0 10px white;
+       position: absolute;
+       z-index: -1;
+    }
+    .special-star
+    {
+        width: 18px;
+        height: 18px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0 0 25px white;
+        animation: twinkle 3s infinite;
+    }
+        
+@keyframes twinkle
+    {
+        0%, 100%
+        {
+            opacity: 1;
+        }
+        50%
+        {
+            opacity: 0.5;
+        }
+    }
+        
