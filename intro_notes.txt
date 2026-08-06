@@ -6,5 +6,7 @@ random stars appea all over the screen.
 #Customized the Text to go down in specific colors to match Nationality flag.
 #Added a "special star" that twinkles, in the center.
 
-#Second day added features: text fading in, special star fading in, twinkling,
+#Second day 
+#Added features: text fading in, special star fading in, twinkling,
 and a color change.
+#Added clickable special star function. Added new loading html and css.
