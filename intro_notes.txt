@@ -10,3 +10,6 @@ random stars appea all over the screen.
 #Added features: text fading in, special star fading in, twinkling,
 and a color change.
 #Added clickable special star function. Added new loading html and css.
+
+#Third day
+#Added features: Stars dissapear after clicking special star.
