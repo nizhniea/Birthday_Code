@@ -92,3 +92,23 @@ body
             opacity: 1;
         }
     }
+
+
+@keyframes disappear
+    {
+        0%
+        {
+            opacity: 1;
+            transform: scale(1);
+        }
+        100%
+        {
+            opacity: 0;
+            transform: scale(0);
+        }
+    }
+
+    .disappear
+    {
+        animation: disappear 2s forwards;
+    }

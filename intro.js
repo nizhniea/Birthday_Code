@@ -21,10 +21,18 @@ for (let i = 0; i < 550; i++) {
   let specialStar = document.createElement("div");
   specialStar.className = "special-star";
   specialStar.style.left = window.innerWidth / 2 + "px";
-  specialStar.style.top = window.innerHeight / 0 + "px";   
+  specialStar.style.top = window.innerHeight / 2 + "px";   
   document.body.append(specialStar);
   
   specialStar.addEventListener("click", function() {
         alert("You found me!");
+        document.querySelectorAll(".disappearing")
+
+        let disappearing = document.querySelectorAll(".star");
+        for (let star of disappearing) {
+            star.classList.add("disappear");
+}
 
 });
+
+
