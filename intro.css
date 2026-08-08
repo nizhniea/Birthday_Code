@@ -67,6 +67,8 @@ body
         fadeIn 3s 15s forwards,
         twinkle 3s 13s infinite;
     animation-timing-function: ease-in-out;
+
+    transition: transform 3s ease-in-out;
     }
         
 @keyframes twinkle
@@ -112,3 +114,10 @@ body
     {
         animation: disappear 2s forwards;
     }
+
+
+
+.zoom
+{
+    transform: scale(30);
+}

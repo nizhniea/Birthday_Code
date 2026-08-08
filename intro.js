@@ -25,14 +25,18 @@ for (let i = 0; i < 550; i++) {
   document.body.append(specialStar);
   
   specialStar.addEventListener("click", function() {
+
         alert("You found me!");
-        document.querySelectorAll(".disappearing")
+
+        
 
         let disappearing = document.querySelectorAll(".star");
         for (let star of disappearing) {
             star.classList.add("disappear");
+    
 }
 
+        specialStar.classList.add("zoom");
 });
 
 
