@@ -12,4 +12,4 @@ and a color change.
 #Added clickable special star function. Added new loading html and css.
 
 #Third day
-#Added features: Stars dissapear after clicking special star.
+#Added features: Stars dissapear after clicking special star and special star expands on screen.
